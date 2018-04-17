@@ -1,19 +1,19 @@
-## This is Passion Fruit
+# This is Passion Fruit
 
 This is a test site, currently for the prototypes.
 
 We just Love Passionfruit
 
-### Markdown
+## Mechanics
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Parkour
 
-```markdown
-Syntax highlighted code block
+Parkour mechanic stoof goes 'ere.
 
-# Header 1
-## Header 2
-### Header 3
+### Companion
+
+Here be companion info.
+
 
 - Bulleted
 - List
