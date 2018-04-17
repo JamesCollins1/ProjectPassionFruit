@@ -24,9 +24,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source"
-/I D:\ProjectPassionFruit\ProjectPassionFruit\Source
-/I D:\ProjectPassionFruit\ProjectPassionFruit\Intermediate\Build\Win64\UE4Editor\Inc\ProjectPassionFruit
-/I D:\ProjectPassionFruit\ProjectPassionFruit\Source\ProjectPassionFruit
+/I C:\Users\James\Desktop\ProjectPassionFruit\ProjectPassionFruit\Source
+/I C:\Users\James\Desktop\ProjectPassionFruit\ProjectPassionFruit\Intermediate\Build\Win64\UE4Editor\Inc\ProjectPassionFruit
+/I C:\Users\James\Desktop\ProjectPassionFruit\ProjectPassionFruit\Source\ProjectPassionFruit
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Async"
@@ -356,9 +356,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\ProjectPassionFruit\ProjectPassionFruit\Source\ProjectPassionFruit\ProjectPassionFruitCharacter.cpp"
-/FI"D:\ProjectPassionFruit\ProjectPassionFruit\Intermediate\Build\Win64\UE4Editor\Development\ProjectPassionFruit\Definitions.ProjectPassionFruit.h"
-/Fo"D:\ProjectPassionFruit\ProjectPassionFruit\Intermediate\Build\Win64\UE4Editor\Development\ProjectPassionFruit\ProjectPassionFruitCharacter.cpp.obj"
+"C:\Users\James\Desktop\ProjectPassionFruit\ProjectPassionFruit\Source\ProjectPassionFruit\ProjectPassionFruitCharacter.cpp"
+/FI"C:\Users\James\Desktop\ProjectPassionFruit\ProjectPassionFruit\Intermediate\Build\Win64\UE4Editor\Development\ProjectPassionFruit\Definitions.ProjectPassionFruit.h"
+/Fo"C:\Users\James\Desktop\ProjectPassionFruit\ProjectPassionFruit\Intermediate\Build\Win64\UE4Editor\Development\ProjectPassionFruit\ProjectPassionFruitCharacter.cpp.obj"
 /TP
 /GR-
 /W4
