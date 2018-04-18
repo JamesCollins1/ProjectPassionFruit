@@ -10,12 +10,12 @@ We just Love Passionfruit
 
 Parkour mechanic stoof goes 'ere.
 
--Vertical Wall Climb
--Horizontal Wall Climb
--Swing
--Vault
--Slide
--Comopanion Jump
+1. Vertical Wall Climb
+2. Horizontal Wall Climb
+3. Swing
+4. Vault
+5. Slide
+6. Companion Jump
 
 ### Companion
 
