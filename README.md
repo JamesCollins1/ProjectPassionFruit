@@ -21,4 +21,7 @@ Parkour mechanic stoof goes 'ere.
 
 Here be companion info.
 
+1. Follow the Player
+2. Own behaviour when the player is idle
+
 
