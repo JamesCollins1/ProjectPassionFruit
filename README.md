@@ -12,7 +12,7 @@ Parkour mechanic stoof goes 'ere.
 
 1. Vertical Wall Climb
 2. Horizontal Wall Climb
-3. Swing
+3. Rope Swing
 4. Vault
 5. Slide
 6. Companion Jump
