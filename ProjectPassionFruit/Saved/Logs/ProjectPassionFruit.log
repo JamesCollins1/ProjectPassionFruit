@@ -1,4 +1,4 @@
-﻿Log file open, 04/25/18 09:25:18
+﻿Log file open, 04/25/18 09:32:01
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ProjectPassionFruit
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1057060391) SRandInit(1057060391).
+LogInit: Display: RandInit(-2058886685) SRandInit(-2058886685).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.197072
+LogStats: Stats thread started at 0.194420
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,633 +113,826 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.25-08.25.22:092][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.25-08.25.22:092][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.25-08.25.22:674][  0]LogInit: Computer: 052TGADS-60418
-[2018.04.25-08.25.22:674][  0]LogInit: User: jc192433
-[2018.04.25-08.25.22:674][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.25-08.25.22:674][  0]LogInit: High frequency timer resolution =2.929687 MHz
-[2018.04.25-08.25.22:674][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.04.25-08.25.22:674][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.25-08.25.22:674][  0]LogMemory: Process Physical Memory: 278.17 MB used, 278.17 MB peak
-[2018.04.25-08.25.22:674][  0]LogMemory: Process Virtual Memory: 273.96 MB used, 273.96 MB peak
-[2018.04.25-08.25.22:674][  0]LogMemory: Physical Memory: 4277.65 MB used,  3814.32 MB free, 8091.97 MB total
-[2018.04.25-08.25.22:674][  0]LogMemory: Virtual Memory: 667.91 MB used,  3814.32 MB free, 134217728.00 MB total
-[2018.04.25-08.25.23:326][  0]LogInit: Using OS detected language (en-US).
-[2018.04.25-08.25.23:326][  0]LogInit: Using OS detected locale (en-GB).
-[2018.04.25-08.25.23:396][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.25-08.25.26:519][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.25-08.25.26:578][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2018.04.25-08.25.26:578][  0]LogD3D11RHI:       4048/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.04.25-08.25.26:585][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.04.25-08.25.26:585][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.04.25-08.25.26:587][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.25-08.25.26:587][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.25-08.25.26:587][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.25-08.25.26:594][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.25-08.25.26:595][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.25-08.25.26:595][  0]LogWindows: EnumDisplayDevices:
-[2018.04.25-08.25.26:595][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2018.04.25-08.25.26:595][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.04.25-08.25.26:595][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.04.25-08.25.26:595][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.04.25-08.25.26:595][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.04.25-08.25.26:595][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.04.25-08.25.26:596][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.04.25-08.25.26:596][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.04.25-08.25.26:596][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2018.04.25-08.25.26:596][  0]LogD3D11RHI:   Driver Version: 382.66 (internal:22.21.13.8266, unified:382.66)
-[2018.04.25-08.25.26:596][  0]LogD3D11RHI:      Driver Date: 6-25-2017
-[2018.04.25-08.25.26:596][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.04.25-08.25.26:627][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.25-08.25.26:639][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.04.25-08.25.26:641][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (F:/ProjectPassionFruit/ProjectPassionFruit/Intermediate/Shaders/WorkingDirectory/9908/).
-[2018.04.25-08.25.26:641][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jc192433/AppData/Local/Temp/UnrealShaderWorkingDir/2BA36AC549DE45F241946887EF893F89/'.
-[2018.04.25-08.25.26:641][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.25-08.25.28:691][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.25-08.25.28:846][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.25-08.25.29:002][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.25-08.25.29:160][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.25-08.25.29:343][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.25-08.25.29:501][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.25-08.25.29:662][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.25-08.25.29:823][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.25-08.25.29:970][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.25-08.25.30:126][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.25-08.25.30:281][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.25-08.25.30:432][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.25-08.25.30:589][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.25-08.25.30:744][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.25-08.25.30:902][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.25-08.25.31:207][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.25-08.25.31:207][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.25-08.25.31:352][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.25-08.25.31:627][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.25-08.25.31:725][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.25-08.25.31:878][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.25-08.25.32:036][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.25-08.25.32:188][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.25-08.25.32:348][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.25-08.25.32:348][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.25-08.25.34:160][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.25-08.25.34:471][  0]LogDerivedDataCache: Loaded boot cache 0.31s 93MB C:/Users/jc192433/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.04.25-08.25.34:471][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jc192433/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2018.04.25-08.25.34:471][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/ProjectPassionFruit/ProjectPassionFruit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.25-08.25.34:471][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.25-08.25.34:471][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/ProjectPassionFruit/ProjectPassionFruit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.25-08.25.34:471][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.25-08.25.34:486][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.25-08.25.34:498][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jc192433/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.25-08.25.34:508][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.25-08.25.34:508][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.25-08.25.34:526][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.25-08.25.34:526][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.25-08.25.34:984][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
-[2018.04.25-08.25.35:180][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.25-08.25.35:582][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.04.25-08.25.36:464][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.25-08.25.36:607][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.25-08.25.36:607][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.25-08.25.36:607][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.25-08.25.36:607][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.25-08.25.36:607][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.25-08.25.37:249][  0]LogNetVersion: ProjectPassionFruit , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1397439912)
-[2018.04.25-08.25.38:946][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 1.335039 seconds
-[2018.04.25-08.25.38:951][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2018.04.25-08.25.38:951][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2018.04.25-08.25.38:951][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.25-08.25.39:218][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.25-08.25.48:075][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.25-08.25.48:202][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.25-08.25.50:122][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:123][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:123][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:132][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:132][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:132][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:132][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:132][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:132][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:778][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:778][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:778][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:779][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:779][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:779][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:780][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:780][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:780][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:780][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:780][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:780][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:781][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:781][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by SCS_Node_2
-[2018.04.25-08.25.50:781][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:781][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by SCS_Node_2
-[2018.04.25-08.25.50:781][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:781][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:781][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:781][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:781][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:781][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by SCS_Node_2
-[2018.04.25-08.25.50:781][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:781][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by SCS_Node_2
-[2018.04.25-08.25.50:781][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:784][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:784][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_Knot_5
-[2018.04.25-08.25.50:784][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:784][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_Knot_5
-[2018.04.25-08.25.50:784][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:784][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:784][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_Knot_5
-[2018.04.25-08.25.50:784][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:784][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_Knot_5
-[2018.04.25-08.25.50:784][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:785][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:785][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableGet_53
-[2018.04.25-08.25.50:785][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:785][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableGet_53
-[2018.04.25-08.25.50:785][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:785][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:785][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_21
-[2018.04.25-08.25.50:785][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:785][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_21
-[2018.04.25-08.25.50:785][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:785][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:785][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_21
-[2018.04.25-08.25.50:785][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:785][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_21
-[2018.04.25-08.25.50:785][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:785][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:785][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_22
-[2018.04.25-08.25.50:785][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:785][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_22
-[2018.04.25-08.25.50:785][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:785][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:785][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_22
-[2018.04.25-08.25.50:786][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:786][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_22
-[2018.04.25-08.25.50:786][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:787][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:787][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableGet_154
-[2018.04.25-08.25.50:787][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:787][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableGet_154
-[2018.04.25-08.25.50:787][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:788][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:788][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_33
-[2018.04.25-08.25.50:788][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:788][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_33
-[2018.04.25-08.25.50:788][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:788][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.50:788][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_33
-[2018.04.25-08.25.50:788][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.50:788][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_33
-[2018.04.25-08.25.50:788][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.50:810][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Component class is not set for 'GrappleHook' - this component will not be instanced, and additional warnings or errors may occur when compiling Blueprint 'ThirdPersonCharacter'.
-[2018.04.25-08.25.50:834][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'GrappleHook' variable not found. Base class was probably changed.
-[2018.04.25-08.25.50:834][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'EndLocation' variable not found. Base class was probably changed.
-[2018.04.25-08.25.50:834][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'EndLocation' variable not found. Base class was probably changed.
-[2018.04.25-08.25.50:837][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'EndLocation' variable not found. Base class was probably changed.
-[2018.04.25-08.25.50:837][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'EndLocation' variable not found. Base class was probably changed.
-[2018.04.25-08.25.50:837][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'CableLength' variable not found. Base class was probably changed.
-[2018.04.25-08.25.50:837][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'CableLength' variable not found. Base class was probably changed.
-[2018.04.25-08.25.50:837][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'GrappleHook' variable not found. Base class was probably changed.
-[2018.04.25-08.25.50:877][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "CableLength" in 'ThirdPersonCharacter'.
+[2018.04.25-08.32.05:406][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.25-08.32.05:406][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.25-08.32.05:818][  0]LogInit: Computer: 052TGADS-60418
+[2018.04.25-08.32.05:818][  0]LogInit: User: jc192433
+[2018.04.25-08.32.05:818][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.25-08.32.05:818][  0]LogInit: High frequency timer resolution =2.929687 MHz
+[2018.04.25-08.32.05:819][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.04.25-08.32.05:819][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.25-08.32.05:819][  0]LogMemory: Process Physical Memory: 278.59 MB used, 278.59 MB peak
+[2018.04.25-08.32.05:819][  0]LogMemory: Process Virtual Memory: 282.00 MB used, 282.00 MB peak
+[2018.04.25-08.32.05:819][  0]LogMemory: Physical Memory: 4197.70 MB used,  3894.28 MB free, 8091.97 MB total
+[2018.04.25-08.32.05:819][  0]LogMemory: Virtual Memory: 675.91 MB used,  3894.28 MB free, 134217728.00 MB total
+[2018.04.25-08.32.06:464][  0]LogInit: Using OS detected language (en-US).
+[2018.04.25-08.32.06:464][  0]LogInit: Using OS detected locale (en-GB).
+[2018.04.25-08.32.06:468][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.25-08.32.07:696][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.25-08.32.07:747][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.04.25-08.32.07:747][  0]LogD3D11RHI:       4048/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.25-08.32.07:755][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.04.25-08.32.07:755][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.25-08.32.07:756][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.25-08.32.07:756][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.25-08.32.07:756][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.25-08.32.07:764][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.25-08.32.07:764][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.25-08.32.07:764][  0]LogWindows: EnumDisplayDevices:
+[2018.04.25-08.32.07:764][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.04.25-08.32.07:764][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.04.25-08.32.07:764][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.04.25-08.32.07:764][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.04.25-08.32.07:764][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.04.25-08.32.07:765][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.04.25-08.32.07:765][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.04.25-08.32.07:765][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.04.25-08.32.07:765][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.04.25-08.32.07:765][  0]LogD3D11RHI:   Driver Version: 382.66 (internal:22.21.13.8266, unified:382.66)
+[2018.04.25-08.32.07:765][  0]LogD3D11RHI:      Driver Date: 6-25-2017
+[2018.04.25-08.32.07:765][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.25-08.32.07:798][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.25-08.32.07:810][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.25-08.32.07:812][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (F:/ProjectPassionFruit/ProjectPassionFruit/Intermediate/Shaders/WorkingDirectory/14408/).
+[2018.04.25-08.32.07:812][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jc192433/AppData/Local/Temp/UnrealShaderWorkingDir/97D879BB40B4D2CF9F489485B3CB017B/'.
+[2018.04.25-08.32.07:812][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.25-08.32.09:047][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.25-08.32.09:203][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.25-08.32.09:363][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.25-08.32.09:517][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.25-08.32.09:680][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.25-08.32.09:836][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.25-08.32.09:997][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.25-08.32.10:151][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.25-08.32.10:302][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.25-08.32.10:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.25-08.32.10:612][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.25-08.32.10:770][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.25-08.32.10:931][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.25-08.32.11:087][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.25-08.32.11:241][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.25-08.32.11:549][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.25-08.32.11:549][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.25-08.32.11:695][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.25-08.32.11:961][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.25-08.32.12:079][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.25-08.32.12:237][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.25-08.32.12:390][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.25-08.32.12:548][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.25-08.32.12:702][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.25-08.32.12:702][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.25-08.32.14:558][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.25-08.32.14:677][  0]LogDerivedDataCache: Loaded boot cache 0.12s 103MB C:/Users/jc192433/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.25-08.32.14:677][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jc192433/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.04.25-08.32.14:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/ProjectPassionFruit/ProjectPassionFruit/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.25-08.32.14:677][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.25-08.32.14:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/ProjectPassionFruit/ProjectPassionFruit/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.25-08.32.14:677][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.25-08.32.14:693][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.25-08.32.14:705][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jc192433/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.25-08.32.14:715][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.25-08.32.14:715][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.25-08.32.14:716][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.25-08.32.14:716][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.25-08.32.14:987][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2018.04.25-08.32.15:190][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.25-08.32.16:260][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.25-08.32.16:405][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.25-08.32.16:405][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.25-08.32.16:405][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.25-08.32.16:405][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.25-08.32.16:405][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.25-08.32.16:420][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.25-08.32.17:389][  0]LogNetVersion: ProjectPassionFruit , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1397439912)
+[2018.04.25-08.32.19:163][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 1.406485 seconds
+[2018.04.25-08.32.19:176][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.04.25-08.32.19:176][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.04.25-08.32.19:176][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.25-08.32.19:455][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.25-08.32.25:694][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.25-08.32.25:826][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.25-08.32.27:770][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint'
+[2018.04.25-08.32.27:770][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Parkour/RopeSwing/BP_HookPoint.uasset.
+[2018.04.25-08.32.27:770][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Parkour/RopeSwing/BP_HookPoint : Can't find file for asset. /Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint
+[2018.04.25-08.32.27:770][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint'
+[2018.04.25-08.32.27:770][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Parkour/RopeSwing/BP_HookPoint.uasset.
+[2018.04.25-08.32.27:770][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Parkour/RopeSwing/BP_HookPoint : Can't find file for asset. /Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint
+[2018.04.25-08.32.27:771][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint'
+[2018.04.25-08.32.27:771][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:771][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint
+[2018.04.25-08.32.27:772][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint'
+[2018.04.25-08.32.27:772][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:772][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint
+[2018.04.25-08.32.27:772][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint'
+[2018.04.25-08.32.27:772][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint.HookPoint_C Referenced by HookIcon_GEN_VARIABLE
+[2018.04.25-08.32.27:773][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:773][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint.HookPoint_C Referenced by HookIcon_GEN_VARIABLE
+[2018.04.25-08.32.27:773][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Game/ThirdPersonCPP/Parkour/RopeSwing/HookPoint
+[2018.04.25-08.32.27:773][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:773][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:773][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:779][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:779][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:779][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:779][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:779][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:779][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:865][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:865][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:865][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:865][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:866][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:866][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:867][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:867][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:867][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:867][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:867][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:867][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:867][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:867][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by SCS_Node_2
+[2018.04.25-08.32.27:867][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:868][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by SCS_Node_2
+[2018.04.25-08.32.27:868][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:868][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:868][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:868][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:868][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:868][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by SCS_Node_2
+[2018.04.25-08.32.27:868][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:868][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by SCS_Node_2
+[2018.04.25-08.32.27:868][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:870][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:870][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_Knot_5
+[2018.04.25-08.32.27:870][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:870][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_Knot_5
+[2018.04.25-08.32.27:870][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:870][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:871][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_Knot_5
+[2018.04.25-08.32.27:871][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:871][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_Knot_5
+[2018.04.25-08.32.27:871][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:871][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:871][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableGet_53
+[2018.04.25-08.32.27:871][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:871][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableGet_53
+[2018.04.25-08.32.27:871][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:871][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:871][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_21
+[2018.04.25-08.32.27:871][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:871][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_21
+[2018.04.25-08.32.27:871][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:871][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:871][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_21
+[2018.04.25-08.32.27:872][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:872][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_21
+[2018.04.25-08.32.27:872][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:872][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:872][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_22
+[2018.04.25-08.32.27:872][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:872][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_22
+[2018.04.25-08.32.27:872][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:872][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:872][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_22
+[2018.04.25-08.32.27:872][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:872][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_22
+[2018.04.25-08.32.27:872][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:874][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:874][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableGet_154
+[2018.04.25-08.32.27:874][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:874][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableGet_154
+[2018.04.25-08.32.27:874][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:875][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:875][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_33
+[2018.04.25-08.32.27:875][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:875][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_33
+[2018.04.25-08.32.27:875][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:875][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.27:875][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_33
+[2018.04.25-08.32.27:875][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.27:875][  0]LoadErrors: Failed to load /Script/CableComponent.CableComponent Referenced by K2Node_VariableSet_33
+[2018.04.25-08.32.27:875][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.27:877][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Component class is not set for 'GrappleHook' - this component will not be instanced, and additional warnings or errors may occur when compiling Blueprint 'ThirdPersonCharacter'.
+[2018.04.25-08.32.27:881][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'GrappleHook' variable not found. Base class was probably changed.
+[2018.04.25-08.32.27:881][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'EndLocation' variable not found. Base class was probably changed.
+[2018.04.25-08.32.27:881][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'EndLocation' variable not found. Base class was probably changed.
+[2018.04.25-08.32.27:884][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'EndLocation' variable not found. Base class was probably changed.
+[2018.04.25-08.32.27:884][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'EndLocation' variable not found. Base class was probably changed.
+[2018.04.25-08.32.27:884][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'CableLength' variable not found. Base class was probably changed.
+[2018.04.25-08.32.27:884][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'CableLength' variable not found. Base class was probably changed.
+[2018.04.25-08.32.27:884][  0]LogBlueprint: Warning: [ThirdPersonCharacter] 'GrappleHook' variable not found. Base class was probably changed.
+[2018.04.25-08.32.27:903][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "CableLength" in 'ThirdPersonCharacter'.
 Make sure 'ThirdPersonCharacter' has been compiled for  Set CableLength
-[2018.04.25-08.25.50:877][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "EndLocation" in 'ThirdPersonCharacter'.
+[2018.04.25-08.32.27:903][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "EndLocation" in 'ThirdPersonCharacter'.
 Make sure 'ThirdPersonCharacter' has been compiled for  Set EndLocation
-[2018.04.25-08.25.51:031][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  GrappleHook  and  Target : Object Reference is not compatible with Scene Component Object Reference.
-[2018.04.25-08.25.51:031][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "GrappleHook" in 'ThirdPersonCharacter_C'.
+[2018.04.25-08.32.28:053][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  GrappleHook  and  Target : Object Reference is not compatible with Scene Component Object Reference.
+[2018.04.25-08.32.28:053][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "GrappleHook" in 'ThirdPersonCharacter_C'.
 Make sure 'ThirdPersonCharacter_C' has been compiled for  Get GrappleHook
-[2018.04.25-08.25.51:031][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Target  and  GrappleHook : Scene Component Object Reference is not compatible with Object Reference.
-[2018.04.25-08.25.51:035][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Target  and  GrappleHook : Scene Component Object Reference is not compatible with Object Reference.
-[2018.04.25-08.25.51:036][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  GrappleHook  and  Target : Object Reference is not compatible with Scene Component Object Reference.
-[2018.04.25-08.25.51:036][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "GrappleHook" in 'ThirdPersonCharacter_C'.
+[2018.04.25-08.32.28:053][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Target  and  GrappleHook : Scene Component Object Reference is not compatible with Object Reference.
+[2018.04.25-08.32.28:058][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Target  and  GrappleHook : Scene Component Object Reference is not compatible with Object Reference.
+[2018.04.25-08.32.28:058][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  GrappleHook  and  Target : Object Reference is not compatible with Scene Component Object Reference.
+[2018.04.25-08.32.28:058][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "GrappleHook" in 'ThirdPersonCharacter_C'.
 Make sure 'ThirdPersonCharacter_C' has been compiled for  Get GrappleHook
-[2018.04.25-08.25.51:036][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "EndLocation" in 'ThirdPersonCharacter'.
+[2018.04.25-08.32.28:058][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "EndLocation" in 'ThirdPersonCharacter'.
 Make sure 'ThirdPersonCharacter' has been compiled for  Set EndLocation
-[2018.04.25-08.25.51:046][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  GrappleHook  could not be found
-[2018.04.25-08.25.51:046][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  CableLength  could not be found
-[2018.04.25-08.25.51:046][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  EndLocation  could not be found
-[2018.04.25-08.25.51:060][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [0036.25] Compile of ThirdPersonCharacter failed. 7 Fatal Issue(s) 6 Warning(s) [in 264 ms] (/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2018.04.25-08.25.51:061][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.51:061][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.51:061][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.51:061][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.51:061][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
-[2018.04.25-08.25.51:061][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.51:064][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.51:064][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
-[2018.04.25-08.25.51:065][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.51:066][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.51:066][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
-[2018.04.25-08.25.51:066][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.51:069][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.51:069][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
-[2018.04.25-08.25.51:069][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.51:069][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
-[2018.04.25-08.25.51:069][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
-[2018.04.25-08.25.51:070][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Script/CableComponent
-[2018.04.25-08.25.51:512][  0]LogTexture: Display: Building textures: HookIcon (AutoDXT, 1300X1300)
-[2018.04.25-08.25.51:512][  0]LogTexture: Display: Building textures: UE4_Mannequin_occlusion_Mobile (DXT1, 512X512)
-[2018.04.25-08.25.51:512][  0]LogTexture: Display: Building textures: UE4_Mannequin_MAT_MASKA (AutoDXT, 1024X1024)
-[2018.04.25-08.25.51:512][  0]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_D (DXT1, 512X512)
-[2018.04.25-08.25.51:869][  0]LogTexture: Display: Building textures: UE4_Mannequin__normals (BC5, 2048X2048)
-[2018.04.25-08.25.51:869][  0]LogTexture: Display: Building textures: T_ML_Aluminum01_N (BC5, 512X512)
-[2018.04.25-08.25.51:869][  0]LogTexture: Display: Building textures: T_ML_Aluminum01 (DXT1, 512X512)
-[2018.04.25-08.25.51:869][  0]LogTexture: Display: Building textures: T_ML_Rubber_Blue_01_N (BC5, 512X512)
-[2018.04.25-08.25.52:510][  0]LogMaterial: Missing cached shader map for material M_UE4Man_Body, compiling. 
-[2018.04.25-08.25.52:758][  0]LogStaticMesh: Building static mesh EAGLE...
-[2018.04.25-08.25.53:032][  0]LogStaticMesh: Built static mesh [0.27s] /Game/Mannequin/Character/Mesh/EAGLE.EAGLE
-[2018.04.25-08.25.53:081][  0]LogMaterial: Missing cached shader map for material M_Eagle, compiling. 
-[2018.04.25-08.25.54:078][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.25-08.25.55:594][  0]SourceControl: Source control is disabled
-[2018.04.25-08.25.55:595][  0]SourceControl: Source control is disabled
-[2018.04.25-08.25.55:776][  0]SourceControl: Source control is disabled
-[2018.04.25-08.25.55:953][  0]SourceControl: Source control is disabled
-[2018.04.25-08.25.58:221][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.25-08.25.59:126][  0]LogOcInput: OculusInput pre-init called
-[2018.04.25-08.26.00:022][  0]LogEngine: Initializing Engine...
-[2018.04.25-08.26.00:024][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.04.25-08.26.00:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.25-08.26.00:524][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.25-08.26.01:044][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.25-08.26.01:053][  0]LogInit: No audio devices found!
-[2018.04.25-08.26.01:734][  0]LogDerivedDataCache: Saved boot cache 0.68s 103MB C:/Users/jc192433/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.04.25-08.26.01:749][  0]LogInit: Texture streaming: Enabled
-[2018.04.25-08.26.02:308][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.25-08.26.03:367][  0]LogInit: Transaction tracking system initialized
-[2018.04.25-08.26.04:688][  0]BlueprintLog: New page: Editor Load
-[2018.04.25-08.26.08:791][  0]LocalizationService: Localization service is disabled
-[2018.04.25-08.26.11:462][  0]LogConsoleResponse: Display: 
-[2018.04.25-08.26.11:904][  0]LogFileCache: Scanning file cache for directory 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/' took 0.01s
-[2018.04.25-08.26.11:904][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.25-08.26.11:904][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.25-08.26.11:904][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.25-08.26.15:943][  0]SourceControl: Source control is disabled
-[2018.04.25-08.26.15:943][  0]Cmd: MAP LOAD FILE="F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.25-08.26.15:943][  0]LightingResults: New page: Lighting Build
-[2018.04.25-08.26.16:092][  0]MapCheck: New page: Map Check
-[2018.04.25-08.26.16:092][  0]LightingResults: New page: Lighting Build
-[2018.04.25-08.26.16:678][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave JoshWoodward-Disappear-NoVox...
-[2018.04.25-08.26.21:509][  0]LogMaterial: Missing cached shader map for material HookIcon_Mat, compiling. 
-[2018.04.25-08.26.21:731][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.04.25-08.26.21:883][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.25-08.26.21:923][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.25-08.26.22:000][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.841ms to complete.
-[2018.04.25-08.26.22:000][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 6.058
-[2018.04.25-08.26.22:680][  0]LogCollectionManager: Loaded 0 collections in 0.001850 seconds
-[2018.04.25-08.26.22:940][  0]LogFileCache: Scanning file cache for directory 'F:/ProjectPassionFruit/ProjectPassionFruit/Saved/Collections/' took 0.01s
-[2018.04.25-08.26.22:941][  0]LogFileCache: Scanning file cache for directory 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/Developers/jc192433/Collections/' took 0.01s
-[2018.04.25-08.26.22:941][  0]LogFileCache: Scanning file cache for directory 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/Collections/' took 0.01s
-[2018.04.25-08.26.22:941][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.04.25-08.26.22:957][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2388 classes and 502 folders.
-[2018.04.25-08.26.23:251][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
-[2018.04.25-08.26.23:735][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2018.04.25-08.26.23:920][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
-[2018.04.25-08.26.24:020][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.25-08.26.24:022][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.25-08.26.24:033][  0]LogSlate: Took 0.006441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.25-08.26.24:178][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.04.25-08.26.24:754][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2018.04.25-08.26.24:755][  0]LogLoad: (Engine Initialization) Total time: 69.94 seconds
-[2018.04.25-08.26.24:755][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.25-08.26.24:755][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.04.25-08.26.24:776][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.25-08.26.24:800][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.25-08.26.24:897][  0]LogSlate: Took 0.006262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.25-08.26.24:931][  1]LogAssetRegistry: Asset discovery search completed in 49.9705 seconds
-[2018.04.25-08.26.24:933][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.04.25-08.26.24:933][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000058 seconds (updated 0 objects)
-[2018.04.25-08.26.26:075][ 80]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.25-08.27.40:292][942]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.25-08.27.41:001][942]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.25-08.27.41:405][942]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0016 seconds. Added 113 classes and 0 folders.
-[2018.04.25-08.27.42:282][942]LogSlate: Took 0.005016 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.04.25-08.27.42:620][943]LogSlate: Took 0.021916 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.04.25-08.28.01:824][863]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
-[2018.04.25-08.28.34:378][486]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.04.25-08.28.35:569][486]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Could not find a function named "FindGrapplePoints" in 'ThirdPersonCharacter_C'.
-Make sure 'ThirdPersonCharacter_C' has been compiled for  Find Grapple Points
-[2018.04.25-08.28.35:569][486]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Could not find a function named "ThrowRopeAndSwing" in 'ThirdPersonCharacter_C'.
-Make sure 'ThirdPersonCharacter_C' has been compiled for  Throw Rope and Swing
-[2018.04.25-08.28.35:582][486]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+[2018.04.25-08.32.28:064][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  GrappleHook  could not be found
+[2018.04.25-08.32.28:064][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  CableLength  could not be found
+[2018.04.25-08.32.28:064][  0]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  EndLocation  could not be found
+[2018.04.25-08.32.28:071][  0]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [0030.82] Compile of ThirdPersonCharacter failed. 7 Fatal Issue(s) 6 Warning(s) [in 194 ms] (/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.04.25-08.32.28:072][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.28:072][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.28:072][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.28:072][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.28:072][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/Mannequin/Animations/ThirdPerson_AnimBP.uasset.
+[2018.04.25-08.32.28:072][  0]LoadErrors: Error: /Game/Mannequin/Animations/ThirdPerson_AnimBP : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.28:075][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.28:075][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
+[2018.04.25-08.32.28:076][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.28:077][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.28:077][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
+[2018.04.25-08.32.28:077][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.28:081][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.28:081][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
+[2018.04.25-08.32.28:081][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.28:081][  0]LogLinker: Warning: Can't find file '/Script/CableComponent'
+[2018.04.25-08.32.28:081][  0]LogLinker: Warning: Can't find file for asset '/Script/CableComponent' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset.
+[2018.04.25-08.32.28:081][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter : Can't find file for asset. /Script/CableComponent
+[2018.04.25-08.32.28:969][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.25-08.32.30:397][  0]SourceControl: Source control is disabled
+[2018.04.25-08.32.30:399][  0]SourceControl: Source control is disabled
+[2018.04.25-08.32.30:571][  0]SourceControl: Source control is disabled
+[2018.04.25-08.32.30:732][  0]SourceControl: Source control is disabled
+[2018.04.25-08.32.32:762][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.25-08.32.33:579][  0]LogOcInput: OculusInput pre-init called
+[2018.04.25-08.32.34:379][  0]LogEngine: Initializing Engine...
+[2018.04.25-08.32.34:380][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.25-08.32.34:641][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.25-08.32.34:641][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.25-08.32.35:097][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.25-08.32.35:105][  0]LogInit: No audio devices found!
+[2018.04.25-08.32.35:595][  0]LogDerivedDataCache: Saved boot cache 0.49s 104MB C:/Users/jc192433/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.25-08.32.35:604][  0]LogInit: Texture streaming: Enabled
+[2018.04.25-08.32.36:094][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.25-08.32.36:862][  0]LogInit: Transaction tracking system initialized
+[2018.04.25-08.32.38:034][  0]BlueprintLog: New page: Editor Load
+[2018.04.25-08.32.41:559][  0]LocalizationService: Localization service is disabled
+[2018.04.25-08.32.44:155][  0]LogConsoleResponse: Display: 
+[2018.04.25-08.32.44:461][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.25-08.32.44:461][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.25-08.32.44:461][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.25-08.32.44:572][  0]LogFileCache: Scanning file cache for directory 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/' took 0.02s
+[2018.04.25-08.32.48:210][  0]SourceControl: Source control is disabled
+[2018.04.25-08.32.48:210][  0]Cmd: MAP LOAD FILE="F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.25-08.32.48:210][  0]LightingResults: New page: Lighting Build
+[2018.04.25-08.32.48:360][  0]MapCheck: New page: Map Check
+[2018.04.25-08.32.48:360][  0]LightingResults: New page: Lighting Build
+[2018.04.25-08.32.48:496][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat'
+[2018.04.25-08.32.48:496][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap.
+[2018.04.25-08.32.48:496][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat
+[2018.04.25-08.32.48:500][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat'
+[2018.04.25-08.32.48:500][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat' while loading F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap.
+[2018.04.25-08.32.48:500][  0]LoadErrors: Error: /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat
+[2018.04.25-08.32.48:501][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat'
+[2018.04.25-08.32.48:501][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat' while loading NULL.
+[2018.04.25-08.32.48:501][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat'
+[2018.04.25-08.32.48:502][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat' while loading NULL.
+[2018.04.25-08.32.48:534][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat'
+[2018.04.25-08.32.48:534][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat.HookIcon_Mat Referenced by Model_0
+[2018.04.25-08.32.48:534][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat' while loading NULL.
+[2018.04.25-08.32.48:534][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat.HookIcon_Mat Referenced by Model_0
+[2018.04.25-08.32.48:537][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat'
+[2018.04.25-08.32.48:537][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat.HookIcon_Mat Referenced by ModelComponent_71
+[2018.04.25-08.32.48:537][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat' while loading NULL.
+[2018.04.25-08.32.48:537][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat.HookIcon_Mat Referenced by ModelComponent_71
+[2018.04.25-08.32.48:538][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat'
+[2018.04.25-08.32.48:538][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat.HookIcon_Mat Referenced by Polys_459
+[2018.04.25-08.32.48:538][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat' while loading NULL.
+[2018.04.25-08.32.48:538][  0]LoadErrors: Failed to load /Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat.HookIcon_Mat Referenced by Polys_459
+[2018.04.25-08.32.48:659][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.25-08.32.48:689][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.25-08.32.48:716][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.25-08.32.48:789][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.851ms to complete.
+[2018.04.25-08.32.48:789][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.579
+[2018.04.25-08.32.49:031][  0]LogCollectionManager: Loaded 0 collections in 0.002059 seconds
+[2018.04.25-08.32.49:231][  0]LogFileCache: Scanning file cache for directory 'F:/ProjectPassionFruit/ProjectPassionFruit/Saved/Collections/' took 0.01s
+[2018.04.25-08.32.49:231][  0]LogFileCache: Scanning file cache for directory 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/Developers/jc192433/Collections/' took 0.01s
+[2018.04.25-08.32.49:231][  0]LogFileCache: Scanning file cache for directory 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/Collections/' took 0.01s
+[2018.04.25-08.32.49:231][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.25-08.32.49:240][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2388 classes and 502 folders.
+[2018.04.25-08.32.49:484][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.04.25-08.32.49:665][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.04.25-08.32.49:822][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.04.25-08.32.49:844][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.25-08.32.49:846][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.25-08.32.49:862][  0]LogSlate: Took 0.011382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.25-08.32.49:969][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.25-08.32.50:302][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.04.25-08.32.50:303][  0]LogLoad: (Engine Initialization) Total time: 53.05 seconds
+[2018.04.25-08.32.50:303][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.25-08.32.50:303][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.25-08.32.50:315][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.25-08.32.50:334][  0]LogAssetRegistry: Asset discovery search completed in 35.3690 seconds
+[2018.04.25-08.32.50:335][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.25-08.32.50:335][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2018.04.25-08.32.50:338][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.25-08.32.50:402][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.25-08.33.37:335][565]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.25-08.33.37:959][565]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.25-08.33.38:292][565]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 113 classes and 0 folders.
+[2018.04.25-08.33.38:993][565]LogSlate: Took 0.004965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.25-08.33.39:160][566]LogSlate: Took 0.010331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.25-08.33.39:980][651]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.04.25-08.33.40:953][651]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "CableLength" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set CableLength
+[2018.04.25-08.33.40:953][651]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "EndLocation" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set EndLocation
+[2018.04.25-08.33.40:953][651]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Grapple Hook  and  Target : Object Reference is not compatible with Scene Component Object Reference.
+[2018.04.25-08.33.40:953][651]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "GrappleHook" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get GrappleHook
+[2018.04.25-08.33.40:954][651]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Target  and  Grapple Hook : Scene Component Object Reference is not compatible with Object Reference.
+[2018.04.25-08.33.40:958][651]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Target  and  Grapple Hook : Scene Component Object Reference is not compatible with Object Reference.
+[2018.04.25-08.33.40:958][651]LogBlueprint: Error: [Compiler ThirdPersonCharacter] Can't connect pins  Grapple Hook  and  Target : Object Reference is not compatible with Scene Component Object Reference.
+[2018.04.25-08.33.40:958][651]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "GrappleHook" in 'ThirdPersonCharacter_C'.
+Make sure 'ThirdPersonCharacter_C' has been compiled for  Get GrappleHook
+[2018.04.25-08.33.40:959][651]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Could not find a variable named "EndLocation" in 'ThirdPersonCharacter'.
+Make sure 'ThirdPersonCharacter' has been compiled for  Set EndLocation
+[2018.04.25-08.33.40:963][651]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Grapple Hook  could not be found
+[2018.04.25-08.33.40:963][651]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  Cable Length  could not be found
+[2018.04.25-08.33.40:963][651]LogBlueprint: Error: [Compiler ThirdPersonCharacter] The property associated with  End Location  could not be found
+[2018.04.25-08.33.40:987][651]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
 	ThirdPerson_AnimBP_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.ThirdPerson_AnimBP_C_1
 	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
-[2018.04.25-08.28.35:582][486]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+[2018.04.25-08.33.40:987][651]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
 	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_1
 	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
-[2018.04.25-08.28.35:582][486]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+[2018.04.25-08.33.40:988][651]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
 	ThirdPerson_AnimBP_C /Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.ThirdPerson_AnimBP_C_2
 	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
-[2018.04.25-08.28.36:178][486]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [0201.37] Compile of ThirdPersonCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 1,799 ms] (/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2018.04.25-08.28.48:975][964]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.04.25-08.28.49:534][964]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+[2018.04.25-08.33.41:546][651]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [0104.29] Compile of ThirdPersonCharacter failed. 7 Fatal Issue(s) 5 Warning(s) [in 1,566 ms] (/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.04.25-08.34.03:620][873]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.04.25-08.34.04:212][873]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
 	ThirdPerson_AnimBP_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.ThirdPerson_AnimBP_C_0
 	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
-[2018.04.25-08.28.49:534][964]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
-	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_0.CharacterMesh0.ThirdPerson_AnimBP_C_0
+[2018.04.25-08.34.04:213][873]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.ThirdPerson_AnimBP_C_0
 	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
-[2018.04.25-08.28.49:534][964]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
-	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.ThirdPerson_AnimBP_C_1
+[2018.04.25-08.34.04:213][873]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.ThirdPerson_AnimBP_C_1
 	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
-[2018.04.25-08.28.49:535][964]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
-	ThirdPerson_AnimBP_C /Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.ThirdPerson_AnimBP_C_2
+[2018.04.25-08.34.26:392][457]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.04.25-08.34.26:831][457]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_6.CharacterMesh0.ThirdPerson_AnimBP_C_0
 	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
-[2018.04.25-08.28.57:590][803]LogEditorViewport: Clicking on Actor (LMB): BP_HookPoint_C (BP_HookPoint)
-[2018.04.25-08.28.58:384][890]Cmd: DELETE
-[2018.04.25-08.28.58:385][890]Cmd: ACTOR DELETE
-[2018.04.25-08.28.58:400][890]LogEditorActor: Deleted Actor: BP_HookPoint_C
-[2018.04.25-08.28.58:418][890]LogEditorActor: Deleted 1 Actors (0.022 secs)
-[2018.04.25-08.29.08:861][122]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SwingMeDaddy_C_0.Swing' attempting to create a joint between objects that are both static.  No joint created.
-[2018.04.25-08.29.21:087][945]LogMaterial: Missing cached shader map for material HookIcon_Mat, compiling. 
-[2018.04.25-08.29.21:094][945]LogMaterial: Warning: Failed to compile Material /Game/ThirdPersonCPP/Parkour/RopeSwing/HookIcon_Mat.HookIcon_Mat for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.25-08.29.21:094][945]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
-[2018.04.25-08.29.31:457][461]Cmd: QUIT_EDITOR
-[2018.04.25-08.29.31:597][461]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.25-08.29.31:663][461]LogExit: Preparing to exit.
-[2018.04.25-08.29.33:793][461]LogExit: Editor shut down
-[2018.04.25-08.29.33:796][461]LogExit: Transaction tracking system shut down
-[2018.04.25-08.29.34:641][461]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.04.25-08.29.34:641][461]LogDirectoryWatcher: A directory notification for 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/' was aborted.
-[2018.04.25-08.29.34:641][461]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.04.25-08.29.34:641][461]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.04.25-08.29.34:641][461]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.04.25-08.29.34:726][461]LogExit: Object subsystem successfully closed.
-[2018.04.25-08.29.34:756][461]LogD3D11RHI: Shutdown
-[2018.04.25-08.29.34:756][461]LogD3D11RHI: CleanupD3DDevice
-[2018.04.25-08.29.34:864][461]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.04.25-08.29.34:895][461]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
-[2018.04.25-08.29.34:895][461]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
-[2018.04.25-08.29.34:900][461]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
-[2018.04.25-08.29.34:900][461]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
-[2018.04.25-08.29.34:900][461]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
-[2018.04.25-08.29.34:902][461]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2018.04.25-08.29.34:904][461]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
-[2018.04.25-08.29.34:904][461]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
-[2018.04.25-08.29.34:904][461]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
-[2018.04.25-08.29.34:904][461]LogDirectoryWatcher: A directory notification for 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/Collections/' was aborted.
-[2018.04.25-08.29.34:904][461]LogDirectoryWatcher: A directory notification for 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/Developers/jc192433/Collections/' was aborted.
-[2018.04.25-08.29.34:905][461]LogDirectoryWatcher: A directory notification for 'F:/ProjectPassionFruit/ProjectPassionFruit/Saved/Collections/' was aborted.
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module BspMode (504)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module Media (479)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module SessionServices (466)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
-[2018.04.25-08.29.34:905][461]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
-[2018.04.25-08.29.34:906][461]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
-[2018.04.25-08.29.34:906][461]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
-[2018.04.25-08.29.34:906][461]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module MergeActors (436)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module SizeMap (434)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module TreeMap (432)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module XmlParser (418)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module Blutility (416)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
-[2018.04.25-08.29.35:402][461]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
-[2018.04.25-08.29.35:403][461]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
-[2018.04.25-08.29.35:403][461]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
-[2018.04.25-08.29.35:403][461]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
-[2018.04.25-08.29.35:403][461]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
-[2018.04.25-08.29.35:403][461]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
-[2018.04.25-08.29.35:403][461]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
-[2018.04.25-08.29.35:403][461]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
-[2018.04.25-08.29.35:469][461]LogModuleManager: Shutting down and abandoning module AutomationController (396)
-[2018.04.25-08.29.35:469][461]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
-[2018.04.25-08.29.35:469][461]LogModuleManager: Shutting down and abandoning module Layers (392)
-[2018.04.25-08.29.35:469][461]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
-[2018.04.25-08.29.35:469][461]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
-[2018.04.25-08.29.35:469][461]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
-[2018.04.25-08.29.35:469][461]LogModuleManager: Shutting down and abandoning module Persona (384)
-[2018.04.25-08.29.35:469][461]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
-[2018.04.25-08.29.35:469][461]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
-[2018.04.25-08.29.35:469][461]LogModuleManager: Shutting down and abandoning module Kismet (378)
-[2018.04.25-08.29.35:475][461]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
-[2018.04.25-08.29.35:475][461]LogModuleManager: Shutting down and abandoning module Toolbox (374)
-[2018.04.25-08.29.35:475][461]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
-[2018.04.25-08.29.35:475][461]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
-[2018.04.25-08.29.35:475][461]LogModuleManager: Shutting down and abandoning module OutputLog (368)
-[2018.04.25-08.29.35:475][461]LogModuleManager: Shutting down and abandoning module GammaUI (366)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module Documentation (364)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module MovieScene (360)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module Niagara (358)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module PortalServices (348)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module AIModule (342)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
-[2018.04.25-08.29.35:476][461]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module OculusInput (326)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module CableComponent (320)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
-[2018.04.25-08.29.35:656][461]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module SourceControl (283)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module MainFrame (268)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module ProjectPassionFruit (264)
-[2018.04.25-08.29.35:657][461]LogModuleManager: Shutting down and abandoning module HotReload (263)
-[2018.04.25-08.29.35:658][461]LogDirectoryWatcher: A directory notification for 'F:/ProjectPassionFruit/ProjectPassionFruit/Binaries/Win64' was aborted.
-[2018.04.25-08.29.35:658][461]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2018.04.25-08.29.35:658][461]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2018.04.25-08.29.35:658][461]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2018.04.25-08.29.35:658][461]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2018.04.25-08.29.35:658][461]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2018.04.25-08.29.35:658][461]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2018.04.25-08.29.35:658][461]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2018.04.25-08.29.35:658][461]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2018.04.25-08.29.35:759][461]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2018.04.25-08.29.35:860][461]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2018.04.25-08.29.35:860][461]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2018.04.25-08.29.35:860][461]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2018.04.25-08.29.35:860][461]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2018.04.25-08.29.35:860][461]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2018.04.25-08.29.35:860][461]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2018.04.25-08.29.35:861][461]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2018.04.25-08.29.35:861][461]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2018.04.25-08.29.35:861][461]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2018.04.25-08.29.35:861][461]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2018.04.25-08.29.35:862][461]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module Core (168)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2018.04.25-08.29.35:865][461]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2018.04.25-08.29.35:866][461]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2018.04.25-08.29.35:884][461]LogDerivedDataCache: Shutdown
-[2018.04.25-08.29.35:884][461]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2018.04.25-08.29.35:884][461]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2018.04.25-08.29.35:884][461]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2018.04.25-08.29.35:884][461]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2018.04.25-08.29.35:884][461]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2018.04.25-08.29.35:884][461]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2018.04.25-08.29.35:884][461]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2018.04.25-08.29.35:884][461]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2018.04.25-08.29.35:884][461]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2018.04.25-08.29.35:884][461]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.04.25-08.29.35:885][461]LogOnline: Display: Unloading online subsystem: NULL
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.04.25-08.29.35:885][461]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.04.25-08.29.35:885][461]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.04.25-08.29.35:885][461]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC5279085-4F51-36FF-6F93-B0830F5B6764%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=d335f40c4c1b44bb06d582b71ca8e8f3%7C1b9bcc5a10c040d0908b8d4313eb3591%7C9f274bb4-ee56-4eb9-835d-583759ca38fb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.04.25-08.29.35:895][461]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.04.25-08.29.35:896][461]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.04.25-08.29.35:896][461]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.04.25-08.29.35:896][461]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.04.25-08.29.35:896][461]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.04.25-08.29.35:896][461]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.04.25-08.29.35:896][461]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.04.25-08.29.35:896][461]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.04.25-08.29.35:897][461]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.04.25-08.29.35:897][461]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.04.25-08.29.35:897][461]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.04.25-08.29.35:897][461]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.04.25-08.29.35:897][461]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.04.25-08.29.35:897][461]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.04.25-08.29.35:897][461]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.04.25-08.29.35:897][461]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.04.25-08.29.35:897][461]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.04.25-08.29.35:897][461]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.04.25-08.29.35:897][461]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.04.25-08.29.35:901][461]LogExit: Exiting.
-[2018.04.25-08.29.36:213][461]Log file closed, 04/25/18 09:29:36
+[2018.04.25-08.34.26:831][457]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.34.26:832][457]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.ThirdPerson_AnimBP_C_1
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.34.26:832][457]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.ThirdPerson_AnimBP_C_2
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.34.33:665][161]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.25-08.34.34:459][161]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.25-08.34.34:462][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-08.34.34:467][161]PIE: New page: PIE session: ThirdPersonExampleMap (25 Apr 2018 10:34:34)
+[2018.04.25-08.34.34:468][161]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.04.25-08.34.34:533][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.064714s)
+[2018.04.25-08.34.34:534][161]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.25-08.34.34:534][161]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2018.04.25-08.34.34:535][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.067398s)
+[2018.04.25-08.34.34:602][161]LogLoad: Game class is 'ProjectPassionFruitGameMode'
+[2018.04.25-08.34.34:626][161]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.04.25-09.34.34
+[2018.04.25-08.34.34:630][161]LogWorld: Bringing up level for play took: 0.008962
+[2018.04.25-08.34.34:819][161]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2018.04.25-08.34.34:828][161]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2018.04.25-08.34.34:829][161]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.945
+[2018.04.25-08.34.34:829][161]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.25-08.34.40:376][813]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.25-08.34.40:421][813]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.25-08.34.43:756][178]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SwingMeDaddy_C_0.Swing' attempting to create a joint between objects that are both static.  No joint created.
+[2018.04.25-08.35.42:917][253]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2018.04.25-08.36.31:676][969]BlueprintLog: New page: Compile BP_HookPoint
+[2018.04.25-08.37.48:173][ 57]BlueprintLog: New page: Compile BP_HookPoint
+[2018.04.25-08.39.23:124][990]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.04.25-08.39.23:886][990]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_9.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.39.23:887][990]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.39.23:887][990]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.ThirdPerson_AnimBP_C_1
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.40.35:191][346]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.04.25-08.40.35:947][346]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_4.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.40.35:948][346]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.40.35:948][346]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.ThirdPerson_AnimBP_C_1
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.40.35:948][346]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_9.CharacterMesh0.ThirdPerson_AnimBP_C_2
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.40.39:128][614]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.25-08.40.39:464][614]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.25-08.40.39:464][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-08.40.39:465][614]PIE: New page: PIE session: ThirdPersonExampleMap (25 Apr 2018 10:40:39)
+[2018.04.25-08.40.39:465][614]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.04.25-08.40.39:585][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120086s)
+[2018.04.25-08.40.39:586][614]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.25-08.40.39:586][614]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2018.04.25-08.40.39:586][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.121382s)
+[2018.04.25-08.40.39:655][614]LogLoad: Game class is 'ProjectPassionFruitGameMode'
+[2018.04.25-08.40.39:663][614]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.04.25-09.40.39
+[2018.04.25-08.40.39:664][614]LogWorld: Bringing up level for play took: 0.006843
+[2018.04.25-08.40.39:666][614]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2018.04.25-08.40.39:667][614]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.217
+[2018.04.25-08.40.39:667][614]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.25-08.40.45:422][300]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.25-08.40.45:462][300]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.25-08.40.58:200][793]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2.MyRope) Not currently registered. Aborting.
+[2018.04.25-08.40.58:200][793]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_9.MyRope) Not currently registered. Aborting.
+[2018.04.25-08.40.58:200][793]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_4.MyRope) Not currently registered. Aborting.
+[2018.04.25-08.40.58:200][793]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_6.MyRope) Not currently registered. Aborting.
+[2018.04.25-08.40.58:200][793]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_1.MyRope) Not currently registered. Aborting.
+[2018.04.25-08.40.58:895][873]LogActorComponent: ReregisterComponent: (/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2.MyRope) Not currently registered. Aborting.
+[2018.04.25-08.40.58:895][873]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_9.MyRope) Not currently registered. Aborting.
+[2018.04.25-08.40.58:895][873]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_4.MyRope) Not currently registered. Aborting.
+[2018.04.25-08.40.58:895][873]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_6.MyRope) Not currently registered. Aborting.
+[2018.04.25-08.40.58:895][873]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_1.MyRope) Not currently registered. Aborting.
+[2018.04.25-08.41.00:602][ 72]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.04.25-08.41.01:054][ 72]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_6.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.41.01:054][ 72]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.41.01:055][ 72]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.ThirdPerson_AnimBP_C_1
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.41.01:055][ 72]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_9.CharacterMesh0.ThirdPerson_AnimBP_C_2
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.41.01:055][ 72]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_4.CharacterMesh0.ThirdPerson_AnimBP_C_3
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.41.15:842][721]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.25-08.41.16:026][721]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.25-08.41.16:026][721]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.25-08.41.16:026][721]PIE: New page: PIE session: ThirdPersonExampleMap (25 Apr 2018 10:41:16)
+[2018.04.25-08.41.16:026][721]LogPlayLevel: Creating play world package: /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.04.25-08.41.16:094][721]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067666s)
+[2018.04.25-08.41.16:095][721]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.04.25-08.41.16:095][721]LogPlayLevel: PIE: World Init took: (0.000876s)
+[2018.04.25-08.41.16:095][721]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.068913s)
+[2018.04.25-08.41.16:153][721]LogLoad: Game class is 'ProjectPassionFruitGameMode'
+[2018.04.25-08.41.16:157][721]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.04.25-09.41.16
+[2018.04.25-08.41.16:158][721]LogWorld: Bringing up level for play took: 0.003859
+[2018.04.25-08.41.16:159][721]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter'!
+[2018.04.25-08.41.16:159][721]PIE: Play in editor start time for /Game/ThirdPersonCPP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.275
+[2018.04.25-08.41.16:159][721]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.25-08.41.24:073][667]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.25-08.41.24:113][667]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.04.25-08.42.53:674][259]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.04.25-08.42.54:444][259]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_8.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.42.54:445][259]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_2.CharacterMesh0.ThirdPerson_AnimBP_C_0
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.42.54:445][259]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_1:PersistentLevel.ThirdPersonCharacter_C_1.CharacterMesh0.ThirdPerson_AnimBP_C_1
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.42.54:445][259]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_9.CharacterMesh0.ThirdPerson_AnimBP_C_2
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.42.54:445][259]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_4.CharacterMesh0.ThirdPerson_AnimBP_C_3
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.42.54:446][259]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsThird_Person_Character
+	ThirdPerson_AnimBP_C /Engine/Transient.World_0:PersistentLevel.ThirdPersonCharacter_C_6.CharacterMesh0.ThirdPerson_AnimBP_C_4
+	Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP:00F9
+[2018.04.25-08.43.09:432][927]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.25-08.43.20:565][  1]LogSavePackage: Save=1374.55ms
+[2018.04.25-08.43.20:568][  1]LogSavePackage: Moving 'F:/ProjectPassionFruit/ProjectPassionFruit/Saved/ThirdPersonExampleMap_Auto1C6DE41EB461B0F987E6C6981D2B5ADD6.tmp' to 'F:/ProjectPassionFruit/ProjectPassionFruit/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2018.04.25-08.43.20:631][  1]LogSavePackage: Display: Finished SavePackage F:/ProjectPassionFruit/ProjectPassionFruit/Saved/Autosaves/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2018.04.25-08.43.20:692][  1]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap' took 2.128
+[2018.04.25-08.43.20:692][  1]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.128
+[2018.04.25-08.43.20:696][  1]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2018.04.25-08.43.20:712][  1]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2018.04.25-08.43.20:712][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter]
+[2018.04.25-08.43.21:159][  1]LogSavePackage: Save=274.99ms
+[2018.04.25-08.43.21:160][  1]LogSavePackage: Moving 'F:/ProjectPassionFruit/ProjectPassionFruit/Saved/ThirdPersonCharacter_Auto10884AF0E45C4C8A07632CEBF2582FA35.tmp' to 'F:/ProjectPassionFruit/ProjectPassionFruit/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2018.04.25-08.43.21:215][  1]LogSavePackage: Display: Finished SavePackage F:/ProjectPassionFruit/ProjectPassionFruit/Saved/Autosaves/Game/ThirdPersonCPP/Blueprints/ThirdPersonCharacter_Auto1.uasset
+[2018.04.25-08.43.21:216][  1]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonCPP/Parkour/RopeSwing/BP_HookPoint] ([1] browsable assets)...
+[2018.04.25-08.43.21:242][  1]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonCPP/Parkour/RopeSwing/BP_HookPoint.BP_HookPoint]
+[2018.04.25-08.43.21:242][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonCPP/Parkour/RopeSwing/BP_HookPoint]
+[2018.04.25-08.43.21:598][  1]LogSavePackage: Save=143.03ms
+[2018.04.25-08.43.21:598][  1]LogSavePackage: Moving 'F:/ProjectPassionFruit/ProjectPassionFruit/Saved/BP_HookPoint_Auto18FAA4D9945D5E7E993ECB082F36C4B82.tmp' to 'F:/ProjectPassionFruit/ProjectPassionFruit/Saved/Autosaves/Game/ThirdPersonCPP/Parkour/RopeSwing/BP_HookPoint_Auto1.uasset'
+[2018.04.25-08.43.21:632][  1]LogSavePackage: Display: Finished SavePackage F:/ProjectPassionFruit/ProjectPassionFruit/Saved/Autosaves/Game/ThirdPersonCPP/Parkour/RopeSwing/BP_HookPoint_Auto1.uasset
+[2018.04.25-08.43.21:632][  1]LogFileHelpers: Auto-saving content packages took 0.937
+[2018.04.25-08.51.19:726][224]LogSavePackage: Save=275.02ms
+[2018.04.25-08.51.19:727][224]LogSavePackage: Moving 'F:/ProjectPassionFruit/ProjectPassionFruit/Saved/ThirdPersonCharacterD254DA504D864E63A17256B541B1AA17.tmp' to 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.04.25-08.51.19:880][224]LogSavePackage: Display: Finished SavePackage F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Blueprints/ThirdPersonCharacter.uasset
+[2018.04.25-08.51.22:716][224]LogSavePackage: Save=2144.39ms
+[2018.04.25-08.51.22:718][224]LogSavePackage: Moving 'F:/ProjectPassionFruit/ProjectPassionFruit/Saved/ThirdPersonExampleMapFF98A0A246659D48969D9C8A8AE85768.tmp' to 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap'
+[2018.04.25-08.51.22:881][224]LogSavePackage: Display: Finished SavePackage F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Maps/ThirdPersonExampleMap.umap
+[2018.04.25-08.51.23:100][224]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 3.210
+[2018.04.25-08.51.23:409][224]LogSavePackage: Save=142.97ms
+[2018.04.25-08.51.23:409][224]LogSavePackage: Moving 'F:/ProjectPassionFruit/ProjectPassionFruit/Saved/BP_HookPoint7678D12C41044244C17EA8838E0843E1.tmp' to 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Parkour/RopeSwing/BP_HookPoint.uasset'
+[2018.04.25-08.51.23:564][224]LogSavePackage: Display: Finished SavePackage F:/ProjectPassionFruit/ProjectPassionFruit/Content/ThirdPersonCPP/Parkour/RopeSwing/BP_HookPoint.uasset
+[2018.04.25-08.51.31:818][470]PIE: Warning: Constraint in '/Engine/Transient.World_2:PersistentLevel.SwingMeDaddy_C_1.Swing' attempting to create a joint between objects that are both static.  No joint created.
+[2018.04.25-08.52.23:358][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.25-08.52.23:879][444]Cmd: QUIT_EDITOR
+[2018.04.25-08.52.24:528][444]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.25-08.52.25:048][444]LogExit: Preparing to exit.
+[2018.04.25-08.52.25:859][444]LogExit: Editor shut down
+[2018.04.25-08.52.25:864][444]LogExit: Transaction tracking system shut down
+[2018.04.25-08.52.26:949][444]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.25-08.52.26:949][444]LogDirectoryWatcher: A directory notification for 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/' was aborted.
+[2018.04.25-08.52.26:949][444]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.25-08.52.26:949][444]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.25-08.52.26:950][444]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.25-08.52.27:030][444]LogExit: Object subsystem successfully closed.
+[2018.04.25-08.52.27:052][444]LogD3D11RHI: Shutdown
+[2018.04.25-08.52.27:052][444]LogD3D11RHI: CleanupD3DDevice
+[2018.04.25-08.52.27:193][444]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.25-08.52.27:224][444]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
+[2018.04.25-08.52.27:228][444]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2018.04.25-08.52.27:228][444]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2018.04.25-08.52.27:228][444]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (532)
+[2018.04.25-08.52.27:228][444]LogModuleManager: Shutting down and abandoning module SceneOutliner (530)
+[2018.04.25-08.52.27:228][444]LogModuleManager: Shutting down and abandoning module AddContentDialog (528)
+[2018.04.25-08.52.27:228][444]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.04.25-08.52.27:233][444]LogModuleManager: Shutting down and abandoning module WidgetCarousel (527)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module EditorWidgets (524)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module CollectionManager (522)
+[2018.04.25-08.52.27:234][444]LogDirectoryWatcher: A directory notification for 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/Collections/' was aborted.
+[2018.04.25-08.52.27:234][444]LogDirectoryWatcher: A directory notification for 'F:/ProjectPassionFruit/ProjectPassionFruit/Content/Developers/jc192433/Collections/' was aborted.
+[2018.04.25-08.52.27:234][444]LogDirectoryWatcher: A directory notification for 'F:/ProjectPassionFruit/ProjectPassionFruit/Saved/Collections/' was aborted.
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module StatsViewer (520)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module FoliageEdit (518)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module LandscapeEditor (516)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module MeshPaintMode (514)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (512)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module ActorPickerMode (510)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module GeometryMode (508)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module TextureAlignMode (506)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module BspMode (504)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (502)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module HardwareSurvey (500)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (498)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module AutomationWorker (496)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (494)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (492)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module PlacementMode (491)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (488)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (486)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (484)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (482)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (480)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module Media (479)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (476)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module CharacterAI (474)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module AudioCapture (472)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module SequenceRecorder (471)
+[2018.04.25-08.52.27:234][444]LogModuleManager: Shutting down and abandoning module SmartSnapping (468)
+[2018.04.25-08.52.27:235][444]LogModuleManager: Shutting down and abandoning module SessionServices (466)
+[2018.04.25-08.52.27:235][444]LogModuleManager: Shutting down and abandoning module ViewportSnapping (464)
+[2018.04.25-08.52.27:235][444]LogModuleManager: Shutting down and abandoning module ViewportInteraction (462)
+[2018.04.25-08.52.27:235][444]LogModuleManager: Shutting down and abandoning module ClothPainter (460)
+[2018.04.25-08.52.27:235][444]LogModuleManager: Shutting down and abandoning module LogVisualizer (458)
+[2018.04.25-08.52.27:235][444]LogModuleManager: Shutting down and abandoning module IntroTutorials (456)
+[2018.04.25-08.52.27:235][444]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (455)
+[2018.04.25-08.52.27:235][444]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (452)
+[2018.04.25-08.52.27:235][444]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (450)
+[2018.04.25-08.52.27:235][444]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (448)
+[2018.04.25-08.52.27:235][444]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (447)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (444)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (442)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (440)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module InputBindingEditor (438)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module MergeActors (436)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module SizeMap (434)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module TreeMap (432)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module ReferenceViewer (430)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (428)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module LocalizationService (427)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module HardwareTargeting (424)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (422)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module UndoHistory (420)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module XmlParser (418)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module Blutility (416)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (414)
+[2018.04.25-08.52.27:829][444]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (413)
+[2018.04.25-08.52.27:830][444]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (410)
+[2018.04.25-08.52.27:830][444]LogModuleManager: Shutting down and abandoning module SettingsEditor (408)
+[2018.04.25-08.52.27:830][444]LogModuleManager: Shutting down and abandoning module ProjectLauncher (406)
+[2018.04.25-08.52.27:830][444]LogModuleManager: Shutting down and abandoning module SessionFrontend (404)
+[2018.04.25-08.52.27:830][444]LogModuleManager: Shutting down and abandoning module ProfilerClient (402)
+[2018.04.25-08.52.27:830][444]LogModuleManager: Shutting down and abandoning module DeviceManager (400)
+[2018.04.25-08.52.27:830][444]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (399)
+[2018.04.25-08.52.27:900][444]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2018.04.25-08.52.27:900][444]LogModuleManager: Shutting down and abandoning module AutomationWindow (394)
+[2018.04.25-08.52.27:900][444]LogModuleManager: Shutting down and abandoning module Layers (392)
+[2018.04.25-08.52.27:900][444]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (390)
+[2018.04.25-08.52.27:900][444]LogModuleManager: Shutting down and abandoning module DetailCustomizations (388)
+[2018.04.25-08.52.27:900][444]LogModuleManager: Shutting down and abandoning module PackagesDialog (386)
+[2018.04.25-08.52.27:900][444]LogModuleManager: Shutting down and abandoning module Persona (384)
+[2018.04.25-08.52.27:900][444]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (383)
+[2018.04.25-08.52.27:900][444]LogModuleManager: Shutting down and abandoning module AnimGraph (381)
+[2018.04.25-08.52.27:900][444]LogModuleManager: Shutting down and abandoning module Kismet (378)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module ClassViewer (376)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module Toolbox (374)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module ModuleUI (372)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module MovieSceneTools (370)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module OutputLog (368)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module GammaUI (366)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module Documentation (364)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (362)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module MovieScene (360)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module Niagara (358)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module NiagaraEditor (357)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (354)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module LauncherPlatform (352)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module AnalyticsET (350)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module PortalServices (348)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module AIModule (342)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module GameplayDebugger (341)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module AITestSuite (339)
+[2018.04.25-08.52.27:911][444]LogModuleManager: Shutting down and abandoning module ProfilerService (336)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module TaskGraph (334)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module SteamVRController (332)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (330)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (328)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module OculusInput (326)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (324)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (322)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module CableComponent (320)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (312)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module HTML5Networking (310)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module AlembicImporter (308)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module AlembicLibrary (307)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module GeometryCache (306)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (305)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (300)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module PluginBrowser (298)
+[2018.04.25-08.52.28:040][444]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (296)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (294)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module DesktopPlatform (293)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module UObjectPlugin (290)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (288)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (286)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module GitSourceControl (284)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module SourceControl (283)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (280)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (278)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (276)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module Paper2DEditor (274)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module MeshPaint (273)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module LevelEditor (271)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (270)
+[2018.04.25-08.52.28:041][444]LogModuleManager: Shutting down and abandoning module MainFrame (268)
+[2018.04.25-08.52.28:042][444]LogModuleManager: Shutting down and abandoning module ProjectPassionFruit (264)
+[2018.04.25-08.52.28:042][444]LogModuleManager: Shutting down and abandoning module HotReload (263)
+[2018.04.25-08.52.28:042][444]LogDirectoryWatcher: A directory notification for 'F:/ProjectPassionFruit/ProjectPassionFruit/Binaries/Win64' was aborted.
+[2018.04.25-08.52.28:042][444]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2018.04.25-08.52.28:042][444]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2018.04.25-08.52.28:042][444]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2018.04.25-08.52.28:042][444]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2018.04.25-08.52.28:042][444]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2018.04.25-08.52.28:042][444]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2018.04.25-08.52.28:042][444]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2018.04.25-08.52.28:042][444]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2018.04.25-08.52.28:143][444]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2018.04.25-08.52.28:244][444]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2018.04.25-08.52.28:244][444]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2018.04.25-08.52.28:244][444]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2018.04.25-08.52.28:244][444]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2018.04.25-08.52.28:244][444]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2018.04.25-08.52.28:244][444]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2018.04.25-08.52.28:245][444]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2018.04.25-08.52.28:245][444]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2018.04.25-08.52.28:245][444]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2018.04.25-08.52.28:245][444]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2018.04.25-08.52.28:246][444]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2018.04.25-08.52.28:247][444]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2018.04.25-08.52.28:247][444]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2018.04.25-08.52.28:247][444]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2018.04.25-08.52.28:247][444]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module Core (168)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2018.04.25-08.52.28:250][444]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2018.04.25-08.52.28:251][444]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.25-08.52.28:263][444]LogDerivedDataCache: Shutdown
+[2018.04.25-08.52.28:263][444]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.25-08.52.28:263][444]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.25-08.52.28:263][444]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.25-08.52.28:263][444]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.25-08.52.28:263][444]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.25-08.52.28:263][444]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.25-08.52.28:263][444]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.25-08.52.28:263][444]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.25-08.52.28:263][444]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.25-08.52.28:263][444]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.25-08.52.28:264][444]LogOnline: Display: Unloading online subsystem: NULL
+[2018.04.25-08.52.28:264][444]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.25-08.52.28:265][444]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.25-08.52.28:265][444]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.25-08.52.28:265][444]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B46114C62-46EC-A451-FFF0-7F841B73A571%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=d335f40c4c1b44bb06d582b71ca8e8f3%7C1b9bcc5a10c040d0908b8d4313eb3591%7C9f274bb4-ee56-4eb9-835d-583759ca38fb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.25-08.52.28:287][444]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.25-08.52.28:288][444]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.25-08.52.28:288][444]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.25-08.52.28:288][444]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.25-08.52.28:288][444]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.25-08.52.28:288][444]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.25-08.52.28:288][444]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.25-08.52.28:288][444]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.25-08.52.28:290][444]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.25-08.52.28:290][444]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.25-08.52.28:290][444]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.25-08.52.28:290][444]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.25-08.52.28:290][444]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.25-08.52.28:290][444]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.25-08.52.28:290][444]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.25-08.52.28:290][444]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.25-08.52.28:290][444]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.25-08.52.28:290][444]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.25-08.52.28:290][444]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.25-08.52.28:293][444]LogExit: Exiting.
+[2018.04.25-08.52.28:367][444]Log file closed, 04/25/18 09:52:28
