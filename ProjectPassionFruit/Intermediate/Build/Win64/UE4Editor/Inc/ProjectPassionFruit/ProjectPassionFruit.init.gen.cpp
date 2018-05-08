@@ -20,7 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeProjectPassionFruit_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/ProjectPassionFruit")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xB17A3CA7;
+			Guid.A = 0xF99C66D2;
 			Guid.B = 0xA8458D55;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

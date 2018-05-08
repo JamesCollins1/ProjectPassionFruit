@@ -61,7 +61,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AProjectPassionFruitCharacter); \
 
 #define ProjectPassionFruit_Source_ProjectPassionFruit_ProjectPassionFruitCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AProjectPassionFruitCharacter, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AProjectPassionFruitCharacter, FollowCamera); }
+	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AProjectPassionFruitCharacter, FollowCamera); } \
+	FORCEINLINE static uint32 __PPO__Cable() { return STRUCT_OFFSET(AProjectPassionFruitCharacter, Cable); }
 
 
 #define ProjectPassionFruit_Source_ProjectPassionFruit_ProjectPassionFruitCharacter_h_9_PROLOG

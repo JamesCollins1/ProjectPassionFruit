@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\ProjectPassionFruit.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{B331D839-BCFD-42D6-B420-352D1F76F938}</UniqueIdentifier>
+			<UniqueIdentifier>{D8858EA9-72AA-4C7E-87B0-B9A6FB4358DE}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ProjectPassionFruit.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{41175789-EF39-470F-ABBC-575F748B025C}</UniqueIdentifier>
+			<UniqueIdentifier>{53CD72E6-0637-49C6-BECF-E08AEBC3B0B7}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\ProjectPassionFruit">
-			<UniqueIdentifier>{6C162281-9F78-4504-A870-F2EC7EEFBDEA}</UniqueIdentifier>
+			<UniqueIdentifier>{A008925B-1FC1-4F34-BE95-44AF5CE519AE}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\ProjectPassionFruit\ProjectPassionFruit.Build.cs">
 			<Filter>Source\ProjectPassionFruit</Filter>
